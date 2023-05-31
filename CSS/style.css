@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .utama ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .utama:hover ul {
+    display: block;
+  }
+  
+  .utama ul li {
+    display: block;
+    background-color: #2980b9;
+    width: 140px;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #3498db;
+    border-right: 1px solid #3498db;
+    border-bottom: 1px solid #3498db;
+  }
+  
+  .content {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main,
+    .navbar {
+      flex-direction: column;
+    }
+  }
+
