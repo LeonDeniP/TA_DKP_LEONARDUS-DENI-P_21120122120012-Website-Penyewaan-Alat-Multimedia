@@ -2,7 +2,7 @@
 
 <!--Head Halaman-->
 <head>
-  <title>TA PDKP | HOME</title>
+  <title>TA PDKP | DAFTAR BARANG</title>
   <link href="img/logo.jpg" rel="shortcut icon">
   <link rel="stylesheet" href="CSS/style.css">
 </head>
